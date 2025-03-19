@@ -5,6 +5,7 @@ import com.chefmooon.genshindelight.common.util.TextUtil;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 
 public class ModItems {
 
@@ -14,6 +15,10 @@ public class ModItems {
 
     public static Item.Properties basicConsumableItem(FoodProperties food) {
         return basicItem().food(food);
+    }
+
+    public static Item.Properties drinkItem(FoodProperties food) {
+        return new Item.Properties().food(food).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16);
     }
 
     public static Item.Properties noStack() {

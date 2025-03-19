@@ -24,11 +24,11 @@ public class ModItemsImpl {
     public static LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
     // Drinks
-    public static final RegistryObject<Item> APPLE_CIDER = registerItemWithTab(ModItems.APPLE_CIDER, () -> new DrinkableItem(basicConsumableItem(FoodValues.BASIC_DRINK)));
-    public static final RegistryObject<Item> BERRY_MINT_BURST = registerItemWithTab(ModItems.BERRY_MINT_BURST, () -> new DrinkableItem(basicConsumableItem(FoodValues.BASIC_DRINK)));
-    public static final RegistryObject<Item> FRUITS_OF_THE_FISTIVAL = registerItemWithTab(ModItems.FRUITS_OF_THE_FISTIVAL, () -> new DrinkableItem(basicConsumableItem(FoodValues.BASIC_DRINK)));
-    public static final RegistryObject<Item> SPARKLING_BERRY_JUICE = registerItemWithTab(ModItems.SPARKLING_BERRY_JUICE, () -> new DrinkableItem(basicConsumableItem(FoodValues.BASIC_DRINK)));
-    public static final RegistryObject<Item> WOLFHOOK_JUICE = registerItemWithTab(ModItems.WOLFHOOK_JUICE, () -> new DrinkableItem(basicConsumableItem(FoodValues.BASIC_DRINK)));
+    public static final RegistryObject<Item> APPLE_CIDER = registerItemWithTab(ModItems.APPLE_CIDER, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
+    public static final RegistryObject<Item> BERRY_MINT_BURST = registerItemWithTab(ModItems.BERRY_MINT_BURST, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
+    public static final RegistryObject<Item> FRUITS_OF_THE_FISTIVAL = registerItemWithTab(ModItems.FRUITS_OF_THE_FISTIVAL, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
+    public static final RegistryObject<Item> SPARKLING_BERRY_JUICE = registerItemWithTab(ModItems.SPARKLING_BERRY_JUICE, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
+    public static final RegistryObject<Item> WOLFHOOK_JUICE = registerItemWithTab(ModItems.WOLFHOOK_JUICE, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
 
     // Food
     public static final RegistryObject<Item> PILE_EM_UP = registerItemWithTab(ModItems.PILE_EM_UP, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
