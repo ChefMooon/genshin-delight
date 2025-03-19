@@ -12,10 +12,14 @@ import java.util.function.Supplier;
 
 public class ModBlocksImpl {
 
-    public static final Supplier<Block> EXAMPLE_BLOCK = () -> registerBlock(ModBlocks.EXAMPLE_BLOCK, new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)));
+    public static final Supplier<Block> MUSHROOM_PIZZA = registerBlock(ModBlocks.MUSHROOM_PIZZA,
+            new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
+    public static final Supplier<Block> STICKY_HONEY_ROAST = registerBlock(ModBlocks.STICKY_HONEY_ROAST,
+            new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
-    public static Block registerBlock(final ResourceLocation location, final Block block) {
-        return Registry.register(BuiltInRegistries.BLOCK, location, block);
+    public static Supplier<Block> registerBlock(final ResourceLocation location, final Block block) {
+        Registry.register(BuiltInRegistries.BLOCK, location, block);
+        return () -> block;
     }
 
     public static void register() {
