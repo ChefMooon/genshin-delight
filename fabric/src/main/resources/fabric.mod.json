@@ -19,6 +19,9 @@
     "main": [
       "com.chefmooon.genshindelight.fabric.ModFabric"
     ],
+    "client": [
+      "com.chefmooon.genshindelight.client.fabric.ModClientImpl"
+    ],
     "fabric-datagen": [
       "com.chefmooon.genshindelight.data.fabric.DataGeneration"
     ]

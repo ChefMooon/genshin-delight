@@ -46,10 +46,14 @@ public class TranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(ModItemsImpl.SAUTEED_MATSUTAKE, "Sauteed Matsutake");
         translationBuilder.add(ModItemsImpl.SUNSHINE_SPRAT, "Sunshine Sprat");
         translationBuilder.add(ModItemsImpl.SWEET_MADAME, "Sweet Madame");
-        translationBuilder.add(ModItemsImpl.TEA_BREAK_PANCAKE, "Tea Break Pancake");
         translationBuilder.add(ModItemsImpl.TEYVAT_FRIED_EGG, "Teyvat Fried Egg");
 
-        translationBuilder.add(ModItemsImpl.MUSHROOM_PIZZA, "Mushroom Pizza");
-        translationBuilder.add(ModItemsImpl.STICKY_HONEY_ROAST, "Sticky Honey Roast");
+        translationBuilder.add(ModItemsImpl.MUSHROOM_PIZZA, "Mushroom Pizza Slice");
+        translationBuilder.add(ModItemsImpl.STICKY_HONEY_ROAST, "Sticky Honey Roast Plate");
+        translationBuilder.add(ModItemsImpl.TEA_BREAK_PANCAKE, "Tea Break Pancake Plate");
+
+        translationBuilder.add(ModItemsImpl.MUSHROOM_PIZZA_BLOCK, "Mushroom Pizza");
+        translationBuilder.add(ModItemsImpl.STICKY_HONEY_ROAST_BLOCK, "Sticky Honey Roast");
+        translationBuilder.add(ModItemsImpl.TEA_BREAK_PANCAKE_BLOCK, "Tea Break Pancake");
     }
 }

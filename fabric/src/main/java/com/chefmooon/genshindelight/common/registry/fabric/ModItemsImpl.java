@@ -11,8 +11,6 @@ import net.minecraft.world.item.Item;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.item.DrinkableItem;
 
-import java.util.function.Supplier;
-
 import static com.chefmooon.genshindelight.common.registry.ModItems.*;
 
 public class ModItemsImpl {
@@ -49,14 +47,22 @@ public class ModItemsImpl {
     public static final Item SAUTEED_MATSUTAKE = registerItemWithTab(ModItems.SAUTEED_MATSUTAKE, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SUNSHINE_SPRAT = registerItemWithTab(ModItems.SUNSHINE_SPRAT, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SWEET_MADAME = registerItemWithTab(ModItems.SWEET_MADAME, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
-    public static final Item TEA_BREAK_PANCAKE = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item TEYVAT_FRIED_EGG = registerItemWithTab(ModItems.TEYVAT_FRIED_EGG, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
 
-    // Food Block Item
     public static final Item MUSHROOM_PIZZA = registerItemWithTab(ModItems.MUSHROOM_PIZZA,
-            new BlockItem(ModBlocksImpl.MUSHROOM_PIZZA.get(), noStack()));
+            new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item STICKY_HONEY_ROAST = registerItemWithTab(ModItems.STICKY_HONEY_ROAST,
-            new BlockItem(ModBlocksImpl.STICKY_HONEY_ROAST.get(), noStack()));
+            new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
+    public static final Item TEA_BREAK_PANCAKE = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE,
+            new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
+
+    // Food Block Item
+    public static final Item MUSHROOM_PIZZA_BLOCK = registerItemWithTab(ModItems.MUSHROOM_PIZZA_BLOCK,
+            new BlockItem(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get(), noStack()));
+    public static final Item STICKY_HONEY_ROAST_BLOCK = registerItemWithTab(ModItems.STICKY_HONEY_ROAST_BLOCK,
+            new BlockItem(ModBlocksImpl.STICKY_HONEY_ROAST_BLOCK.get(), noStack()));
+    public static final Item TEA_BREAK_PANCAKE_BLOCK = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE_BLOCK,
+            new BlockItem(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get(), noStack()));
 
     public static Item registerItemWithTab(final ResourceLocation location, final Item supplier) {
         Registry.register(BuiltInRegistries.ITEM, location, supplier);

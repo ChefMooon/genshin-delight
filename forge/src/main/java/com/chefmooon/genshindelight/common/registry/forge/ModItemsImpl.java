@@ -55,14 +55,21 @@ public class ModItemsImpl {
     public static final RegistryObject<Item> SAUTEED_MATSUTAKE = registerItemWithTab(ModItems.SAUTEED_MATSUTAKE, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SUNSHINE_SPRAT = registerItemWithTab(ModItems.SUNSHINE_SPRAT, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SWEET_MADAME = registerItemWithTab(ModItems.SWEET_MADAME, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
-    public static final RegistryObject<Item> TEA_BREAK_PANCAKE = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> TEYVAT_FRIED_EGG = registerItemWithTab(ModItems.TEYVAT_FRIED_EGG, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
 
-    // Food Block Item
     public static final RegistryObject<Item> MUSHROOM_PIZZA = registerItemWithTab(ModItems.MUSHROOM_PIZZA,
-            () -> new BlockItem(ModBlocksImpl.MUSHROOM_PIZZA.get(), noStack()));
+            () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> STICKY_HONEY_ROAST = registerItemWithTab(ModItems.STICKY_HONEY_ROAST,
-            () -> new BlockItem(ModBlocksImpl.STICKY_HONEY_ROAST.get(), noStack()));
+            () -> new Item(basicConsumableItem(FoodValues.BASIC)));
+    public static final RegistryObject<Item> TEA_BREAK_PANCAKE = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE,
+            () -> new Item(basicConsumableItem(FoodValues.BASIC)));
+    // Food Block Item
+    public static final RegistryObject<Item> MUSHROOM_PIZZA_BLOCK = registerItemWithTab(ModItems.MUSHROOM_PIZZA_BLOCK,
+            () -> new BlockItem(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get(), noStack()));
+    public static final RegistryObject<Item> STICKY_HONEY_ROAST_BLOCK = registerItemWithTab(ModItems.STICKY_HONEY_ROAST_BLOCK,
+            () -> new BlockItem(ModBlocksImpl.STICKY_HONEY_ROAST_BLOCK.get(), noStack()));
+    public static final RegistryObject<Item> TEA_BREAK_PANCAKE_BLOCK = registerItemWithTab(ModItems.TEA_BREAK_PANCAKE_BLOCK,
+            () -> new BlockItem(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get(), noStack()));
 
 
 

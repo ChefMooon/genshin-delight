@@ -11,8 +11,9 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
-    public static final ResourceLocation MUSHROOM_PIZZA = block("mushroom_pizza");
-    public static final ResourceLocation STICKY_HONEY_ROAST = block("sticky_honey_roast");
+    public static final ResourceLocation MUSHROOM_PIZZA_BLOCK = block("mushroom_pizza_block");
+    public static final ResourceLocation STICKY_HONEY_ROAST_BLOCK = block("sticky_honey_roast_block");
+    public static final ResourceLocation TEA_BREAK_PANCAKE_BLOCK = block("tea_break_pancake_block");
 
     @ExpectPlatform
     public static Supplier<Block> registerBlock(final ResourceLocation location, final Block block) {

@@ -29,7 +29,7 @@ public class ModItems {
     // Drinks
     public static final ResourceLocation APPLE_CIDER = item("apple_cider");
     public static final ResourceLocation BERRY_MINT_BURST = item("berry_mint_burst");
-    public static final ResourceLocation FRUITS_OF_THE_FISTIVAL = item("fruits_of_the_fistival");
+    public static final ResourceLocation FRUITS_OF_THE_FISTIVAL = item("fruits_of_the_festival");
     public static final ResourceLocation SPARKLING_BERRY_JUICE = item("sparkling_berry_juice");
     public static final ResourceLocation WOLFHOOK_JUICE = item("wolfhook_juice");
 
@@ -58,12 +58,16 @@ public class ModItems {
     public static final ResourceLocation SAUTEED_MATSUTAKE = item("sauteed_matsutake");
     public static final ResourceLocation SUNSHINE_SPRAT = item("sunshine_sprat");
     public static final ResourceLocation SWEET_MADAME = item("sweet_madame");
-    public static final ResourceLocation TEA_BREAK_PANCAKE = item("tea_break_pancake");
     public static final ResourceLocation TEYVAT_FRIED_EGG = item("teyvat_fried_egg");
 
     // Food Block Item
     public static final ResourceLocation MUSHROOM_PIZZA = item("mushroom_pizza");
     public static final ResourceLocation STICKY_HONEY_ROAST = item("sticky_honey_roast");
+    public static final ResourceLocation TEA_BREAK_PANCAKE = item("tea_break_pancake");
+
+    public static final ResourceLocation MUSHROOM_PIZZA_BLOCK = item("mushroom_pizza_block");
+    public static final ResourceLocation STICKY_HONEY_ROAST_BLOCK = item("sticky_honey_roast_block");
+    public static final ResourceLocation TEA_BREAK_PANCAKE_BLOCK = item("tea_break_pancake_block");
 
     private static ResourceLocation item(String string) {
         return TextUtil.res(string);
