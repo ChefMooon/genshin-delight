@@ -44,6 +44,7 @@ public class TranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(ModItemsImpl.RADISH_VEGGIE_SOUP, "Radish Veggie Soup");
         translationBuilder.add(ModItemsImpl.SATISFYING_SALAD, "Satisfying Salad");
         translationBuilder.add(ModItemsImpl.SAUTEED_MATSUTAKE, "Sauteed Matsutake");
+        translationBuilder.add(ModItemsImpl.STEAK, "Steak");
         translationBuilder.add(ModItemsImpl.SUNSHINE_SPRAT, "Sunshine Sprat");
         translationBuilder.add(ModItemsImpl.SWEET_MADAME, "Sweet Madame");
         translationBuilder.add(ModItemsImpl.TEYVAT_FRIED_EGG, "Teyvat Fried Egg");

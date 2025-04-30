@@ -18,7 +18,7 @@ public class ModCreativeTabsImpl {
     public static void register() {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ITEM_GROUP, FabricItemGroup.builder()
                 .title(Component.translatable("itemGroup." + Mod.MOD_ID))
-                .icon(() -> new ItemStack(Items.STICK))
+                .icon(() -> new ItemStack(ModItemsImpl.ADVENTURERS_BREAKFAST_SANDWICH))
                 .build());
     }
 }

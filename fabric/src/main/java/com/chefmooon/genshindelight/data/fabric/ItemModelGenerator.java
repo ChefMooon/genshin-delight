@@ -38,6 +38,7 @@ public class ItemModelGenerator {
         generateFlatItem(ModItemsImpl.RADISH_VEGGIE_SOUP);
         generateFlatItem(ModItemsImpl.SATISFYING_SALAD);
         generateFlatItem(ModItemsImpl.SAUTEED_MATSUTAKE);
+        generateFlatItem(ModItemsImpl.STEAK);
         generateFlatItem(ModItemsImpl.SUNSHINE_SPRAT);
         generateFlatItem(ModItemsImpl.SWEET_MADAME);
         generateFlatItem(ModItemsImpl.TEA_BREAK_PANCAKE);

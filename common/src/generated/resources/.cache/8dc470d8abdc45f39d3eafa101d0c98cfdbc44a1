@@ -1,4 +1,4 @@
-// 1.20.1	2025-04-30T10:49:49.8641461	genshindelight/Model Definitions
+// 1.20.1	2025-04-30T10:55:52.5694944	genshindelight/Model Definitions
 254b5e331f74ebb074246f926df936dfcb01274c assets\genshindelight\models\item\wolfhook_juice.json
 7c686cf6a15745d42a28fbdd2f25ca8272dbd739 assets\genshindelight\models\item\chicken_mushroom_skewer.json
 047889ae5ac3b2eb2caca089bdf33f53129a6bd0 assets\genshindelight\models\item\mushroom_pizza.json
@@ -14,11 +14,12 @@ eecf4f698c2c9a391f0f5317912e4381e37e1b7b assets\genshindelight\blockstates\tea_b
 4c29ca70866a24a37984c28abdfdf16a3976638f assets\genshindelight\models\item\sweet_madame.json
 8ce9605b13f572099f1a8abf3f5ae3e3a49301c3 assets\genshindelight\models\item\mushroom_pizza_block.json
 95a0c66f55f998d8089ff112bae4dce8d77b63f7 assets\genshindelight\models\item\meatnado.json
+6cb85846111f05313386c19d9f526590e2047c6a assets\genshindelight\models\item\steak.json
 d1f22846ca3ccd55b8fa9199c966fcc94e8f768d assets\genshindelight\models\item\apple_roly_poly.json
 11fa0dd6decbff0c738bb119851e73e1ac4fba60 assets\genshindelight\models\item\sticky_honey_roast.json
 aca5048225ac15269b73311bfa37c9635e9f4a33 assets\genshindelight\models\item\berry_mint_burst.json
-9d44c6de0d9774ddef4fbc7d9b81180dc176ad12 assets\genshindelight\models\item\mondstadt_hash_brown.json
 fa1501995d90ecadb28b4fa41a042e93f32b3f63 assets\genshindelight\models\item\crab_ham_veggie_bake.json
+9d44c6de0d9774ddef4fbc7d9b81180dc176ad12 assets\genshindelight\models\item\mondstadt_hash_brown.json
 e76df7fe2ced0d72653f27a4c3c246cce17ad795 assets\genshindelight\models\item\tea_break_pancake.json
 1543fdd5d6f65ddd8d49507bd4316e1e231e27d7 assets\genshindelight\models\item\mondstadt_grilled_fish.json
 f3a4236f223a293821680b218475e5e5412b021f assets\genshindelight\models\item\satisfying_salad.json

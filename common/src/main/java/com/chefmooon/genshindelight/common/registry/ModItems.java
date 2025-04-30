@@ -56,6 +56,7 @@ public class ModItems {
     public static final ResourceLocation RADISH_VEGGIE_SOUP = item("radish_veggie_soup");
     public static final ResourceLocation SATISFYING_SALAD = item("satisfying_salad");
     public static final ResourceLocation SAUTEED_MATSUTAKE = item("sauteed_matsutake");
+    public static final ResourceLocation STEAK = item("steak");
     public static final ResourceLocation SUNSHINE_SPRAT = item("sunshine_sprat");
     public static final ResourceLocation SWEET_MADAME = item("sweet_madame");
     public static final ResourceLocation TEYVAT_FRIED_EGG = item("teyvat_fried_egg");

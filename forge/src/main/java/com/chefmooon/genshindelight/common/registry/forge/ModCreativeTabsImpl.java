@@ -16,7 +16,7 @@ public class ModCreativeTabsImpl {
     public static final Supplier<CreativeModeTab> MOD_CREATIVE_MODE_TAB = CREATIVE_MODE_TAB.register(Mod.MOD_ID,
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup." + Mod.MOD_ID))
-                    .icon(() -> new ItemStack(Items.STICK))
+                    .icon(() -> new ItemStack(ModItemsImpl.ADVENTURERS_BREAKFAST_SANDWICH.get()))
                     .displayItems((parameters, output) -> ModItemsImpl.CREATIVE_TAB_ITEMS.forEach((item) -> output.accept(item.get())))
                     .build());
 

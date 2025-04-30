@@ -45,6 +45,7 @@ public class ModItemsImpl {
     public static final Item RADISH_VEGGIE_SOUP = registerItemWithTab(ModItems.RADISH_VEGGIE_SOUP, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SATISFYING_SALAD = registerItemWithTab(ModItems.SATISFYING_SALAD, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SAUTEED_MATSUTAKE = registerItemWithTab(ModItems.SAUTEED_MATSUTAKE, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
+    public static final Item STEAK = registerItemWithTab(ModItems.STEAK, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SUNSHINE_SPRAT = registerItemWithTab(ModItems.SUNSHINE_SPRAT, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item SWEET_MADAME = registerItemWithTab(ModItems.SWEET_MADAME, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));
     public static final Item TEYVAT_FRIED_EGG = registerItemWithTab(ModItems.TEYVAT_FRIED_EGG, new ConsumableItem(basicConsumableItem(FoodValues.BASIC)));

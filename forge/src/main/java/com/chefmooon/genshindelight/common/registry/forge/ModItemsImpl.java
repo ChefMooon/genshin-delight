@@ -53,6 +53,7 @@ public class ModItemsImpl {
     public static final RegistryObject<Item> RADISH_VEGGIE_SOUP = registerItemWithTab(ModItems.RADISH_VEGGIE_SOUP, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SATISFYING_SALAD = registerItemWithTab(ModItems.SATISFYING_SALAD, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SAUTEED_MATSUTAKE = registerItemWithTab(ModItems.SAUTEED_MATSUTAKE, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
+    public static final RegistryObject<Item> STEAK = registerItemWithTab(ModItems.STEAK, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SUNSHINE_SPRAT = registerItemWithTab(ModItems.SUNSHINE_SPRAT, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> SWEET_MADAME = registerItemWithTab(ModItems.SWEET_MADAME, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
     public static final RegistryObject<Item> TEYVAT_FRIED_EGG = registerItemWithTab(ModItems.TEYVAT_FRIED_EGG, () -> new Item(basicConsumableItem(FoodValues.BASIC)));
