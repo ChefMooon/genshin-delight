@@ -1,6 +1,7 @@
 package com.chefmooon.genshindelight.data.fabric;
 
 import com.chefmooon.genshindelight.Mod;
+import com.chefmooon.genshindelight.common.registry.fabric.ModBlocksImpl;
 import com.chefmooon.genshindelight.common.registry.fabric.ModItemsImpl;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -15,6 +16,29 @@ public class TranslationGenerator extends FabricLanguageProvider {
         String MOD_ID = Mod.MOD_ID;
 
         translationBuilder.add("itemGroup." + MOD_ID, "Genshin Delight");
+
+        translationBuilder.add(ModBlocksImpl.BERRY.get(), "Berry");
+        translationBuilder.add(ModBlocksImpl.WILD_BERRY.get(), "Wild Berry");
+        translationBuilder.add(ModBlocksImpl.CALLA_LILY.get(), "Calla Lily");
+        translationBuilder.add(ModBlocksImpl.MATASUKE.get(), "Matasuke");
+        translationBuilder.add(ModBlocksImpl.MINT.get(), "Mint");
+        translationBuilder.add(ModBlocksImpl.RADISH.get(), "Radish");
+        translationBuilder.add(ModBlocksImpl.SMALL_LAMP_GRASS.get(), "Small Lamp Grass");
+        translationBuilder.add(ModBlocksImpl.WILD_LAMP_GRASS.get(), "Wild Lamp Grass");
+        translationBuilder.add(ModBlocksImpl.SNAPDRAGON.get(), "Snapdragon");
+        translationBuilder.add(ModBlocksImpl.SWEET_FLOWER.get(), "Sweet Flower");
+
+        translationBuilder.add(ModItemsImpl.BUTTER, "Butter");
+        translationBuilder.add(ModItemsImpl.CHEESE, "Cheese");
+        translationBuilder.add(ModItemsImpl.CRAB, "Crab");
+        translationBuilder.add(ModItemsImpl.CRAB_ROE, "Crab Roe");
+        translationBuilder.add(ModItemsImpl.CREAM, "Cream");
+        translationBuilder.add(ModItemsImpl.FLOUR, "Flour");
+        translationBuilder.add(ModItemsImpl.PEPPER, "Pepper");
+        translationBuilder.add(ModItemsImpl.PINECONE, "Pinecone");
+        translationBuilder.add(ModItemsImpl.SALT, "Salt");
+        translationBuilder.add(ModItemsImpl.SMOKED_FOWL, "Smoked Fowl");
+        translationBuilder.add(ModItemsImpl.SUNSETTIAS, "Sunsettias");
 
         translationBuilder.add(ModItemsImpl.APPLE_CIDER, "Apple Cider");
         translationBuilder.add(ModItemsImpl.BERRY_MINT_BURST, "Berry & Mint Burst");

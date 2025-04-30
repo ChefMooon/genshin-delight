@@ -1,0 +1,6 @@
+{
+  "parent": "genshindelight:block/template_crop_cross",
+  "textures": {
+    "cross": "genshindelight:block/berry_stage_1"
+  }
+}

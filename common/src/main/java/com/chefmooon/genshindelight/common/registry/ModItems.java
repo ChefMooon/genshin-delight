@@ -25,7 +25,31 @@ public class ModItems {
         return new Item.Properties().stacksTo(1);
     }
 
-    public static final ResourceLocation EXAMPLE_ITEM = item("example_item");
+    // Crop Like Things
+    public static final ResourceLocation BERRY = item("berry");
+    public static final ResourceLocation WILD_BERRY = item("wild_berry");
+    public static final ResourceLocation CALLA_LILY = item("calla_lily");
+    public static final ResourceLocation MATASUKE = item("matasuke");
+    public static final ResourceLocation MINT = item("mint");
+    public static final ResourceLocation RADISH = item("radish");
+    public static final ResourceLocation SMALL_LAMP_GRASS = item("small_lamp_grass");
+    public static final ResourceLocation WILD_LAMP_GRASS = item("wild_lamp_grass");
+    public static final ResourceLocation SNAPDRAGON = item("snapdragon");
+    public static final ResourceLocation SWEET_FLOWER = item("sweet_flower");
+
+    // Ingredients
+    public static final ResourceLocation BUTTER = item("butter");
+    public static final ResourceLocation CHEESE = item("cheese");
+    public static final ResourceLocation CRAB = item("crab");
+    public static final ResourceLocation CRAB_ROE = item("crab_roe");
+    public static final ResourceLocation CREAM = item("cream");
+    public static final ResourceLocation FLOUR = item("flour");
+    public static final ResourceLocation PEPPER = item("pepper");
+    public static final ResourceLocation PINECONE = item("pinecone");
+    public static final ResourceLocation SALT = item("salt");
+    public static final ResourceLocation SMOKED_FOWL = item("smoked_fowl");
+    public static final ResourceLocation SUNSETTIAS = item("sunsettias");
+
     // Drinks
     public static final ResourceLocation APPLE_CIDER = item("apple_cider");
     public static final ResourceLocation BERRY_MINT_BURST = item("berry_mint_burst");

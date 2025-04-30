@@ -10,6 +10,29 @@ public class ItemModelGenerator {
     public static void generateItemModels(ItemModelGenerators itemModelGenerator) {
         GENERATOR = itemModelGenerator;
 
+        generateFlatItem(ModItemsImpl.BERRY);
+        generateFlatItem(ModItemsImpl.WILD_BERRY);
+        generateFlatItem(ModItemsImpl.CALLA_LILY);
+        generateFlatItem(ModItemsImpl.MATASUKE);
+        generateFlatItem(ModItemsImpl.MINT);
+        generateFlatItem(ModItemsImpl.RADISH);
+        generateFlatItem(ModItemsImpl.SMALL_LAMP_GRASS);
+        generateFlatItem(ModItemsImpl.WILD_LAMP_GRASS);
+        generateFlatItem(ModItemsImpl.SNAPDRAGON);
+        generateFlatItem(ModItemsImpl.SWEET_FLOWER);
+
+        generateFlatItem(ModItemsImpl.BUTTER);
+        generateFlatItem(ModItemsImpl.CHEESE);
+        generateFlatItem(ModItemsImpl.CRAB);
+        generateFlatItem(ModItemsImpl.CRAB_ROE);
+        generateFlatItem(ModItemsImpl.CREAM);
+        generateFlatItem(ModItemsImpl.FLOUR);
+        generateFlatItem(ModItemsImpl.PEPPER);
+        generateFlatItem(ModItemsImpl.PINECONE);
+        generateFlatItem(ModItemsImpl.SALT);
+        generateFlatItem(ModItemsImpl.SMOKED_FOWL);
+        generateFlatItem(ModItemsImpl.SUNSETTIAS);
+
         generateFlatItem(ModItemsImpl.APPLE_CIDER);
         generateFlatItem(ModItemsImpl.BERRY_MINT_BURST);
         generateFlatItem(ModItemsImpl.FRUITS_OF_THE_FISTIVAL);

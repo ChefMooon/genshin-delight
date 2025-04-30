@@ -23,6 +23,12 @@ public class ModItemsImpl {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, Mod.MOD_ID);
     public static LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
+    // Crop Like Things
+
+
+    // Ingredients
+
+
     // Drinks
     public static final RegistryObject<Item> APPLE_CIDER = registerItemWithTab(ModItems.APPLE_CIDER, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));
     public static final RegistryObject<Item> BERRY_MINT_BURST = registerItemWithTab(ModItems.BERRY_MINT_BURST, () -> new DrinkableItem(drinkItem(FoodValues.BASIC_DRINK)));

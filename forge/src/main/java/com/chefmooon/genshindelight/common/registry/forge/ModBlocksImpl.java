@@ -20,6 +20,8 @@ public class ModBlocksImpl {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, Mod.MOD_ID);
 
+
+
     public static final RegistryObject<Block> MUSHROOM_PIZZA_BLOCK = registerBlock(ModBlocks.MUSHROOM_PIZZA_BLOCK,
             () ->  new MushroomPizzaBlock(BlockBehaviour.Properties.copy(Blocks.CAKE), ModItemsImpl.MUSHROOM_PIZZA_BLOCK));
     public static final RegistryObject<Block> STICKY_HONEY_ROAST_BLOCK = registerBlock(ModBlocks.STICKY_HONEY_ROAST_BLOCK,

@@ -1,4 +1,4 @@
-package com.chefmooon.genshindelight.fabric;
+package com.chefmooon.genshindelight.common.fabric;
 
 import com.chefmooon.genshindelight.Mod;
 import com.chefmooon.genshindelight.common.registry.fabric.ModBlocksImpl;
