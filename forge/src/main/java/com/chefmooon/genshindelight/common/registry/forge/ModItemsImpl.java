@@ -2,6 +2,7 @@ package com.chefmooon.genshindelight.common.registry.forge;
 
 import com.chefmooon.genshindelight.Mod;
 import com.chefmooon.genshindelight.common.FoodValues;
+import com.chefmooon.genshindelight.common.item.ModConsumableItemNameBlockItem;
 import com.chefmooon.genshindelight.common.registry.ModItems;
 import com.google.common.collect.Sets;
 import net.minecraft.core.registries.Registries;
@@ -24,9 +25,30 @@ public class ModItemsImpl {
     public static LinkedHashSet<Supplier<Item>> CREATIVE_TAB_ITEMS = Sets.newLinkedHashSet();
 
     // Crop Like Things
-
+    public static final RegistryObject<Item> BERRY = registerItemWithTab(ModItems.BERRY,
+            () -> new ModConsumableItemNameBlockItem(ModBlocksImpl.BERRY.get(), basicItem()));
+    public static final RegistryObject<Item> WILD_BERRY = registerItemWithTab(ModItems.WILD_BERRY, () -> new BlockItem(ModBlocksImpl.WILD_BERRY.get(), basicItem()));
+    public static final RegistryObject<Item> CALLA_LILY = registerItemWithTab(ModItems.CALLA_LILY, () -> new BlockItem(ModBlocksImpl.CALLA_LILY.get(), basicItem()));
+    public static final RegistryObject<Item> MATASUKE = registerItemWithTab(ModItems.MATASUKE, () -> new BlockItem(ModBlocksImpl.MATASUKE.get(), basicItem()));
+    public static final RegistryObject<Item> MINT = registerItemWithTab(ModItems.MINT, () -> new BlockItem(ModBlocksImpl.MINT.get(), basicItem()));
+    public static final RegistryObject<Item> RADISH = registerItemWithTab(ModItems.RADISH, () -> new BlockItem(ModBlocksImpl.RADISH.get(), basicItem()));
+    public static final RegistryObject<Item> SMALL_LAMP_GRASS = registerItemWithTab(ModItems.SMALL_LAMP_GRASS, () -> new BlockItem(ModBlocksImpl.SMALL_LAMP_GRASS.get(), basicItem()));
+    public static final RegistryObject<Item> WILD_LAMP_GRASS = registerItemWithTab(ModItems.WILD_LAMP_GRASS, () -> new BlockItem(ModBlocksImpl.WILD_LAMP_GRASS.get(), basicItem()));
+    public static final RegistryObject<Item> SNAPDRAGON = registerItemWithTab(ModItems.SNAPDRAGON, () -> new BlockItem(ModBlocksImpl.SNAPDRAGON.get(), basicItem()));
+    public static final RegistryObject<Item> SWEET_FLOWER = registerItemWithTab(ModItems.SWEET_FLOWER, () -> new BlockItem(ModBlocksImpl.SWEET_FLOWER.get(), basicItem()));
 
     // Ingredients
+    public static final RegistryObject<Item> BUTTER = registerItemWithTab(ModItems.BUTTER, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> CHEESE = registerItemWithTab(ModItems.CHEESE, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> CRAB = registerItemWithTab(ModItems.CRAB, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> CRAB_ROE = registerItemWithTab(ModItems.CRAB_ROE, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> CREAM = registerItemWithTab(ModItems.CREAM, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> FLOUR = registerItemWithTab(ModItems.FLOUR, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> PEPPER = registerItemWithTab(ModItems.PEPPER, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> PINECONE = registerItemWithTab(ModItems.PINECONE, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> SALT = registerItemWithTab(ModItems.SALT, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> SMOKED_FOWL = registerItemWithTab(ModItems.SMOKED_FOWL, () -> new Item(basicItem()));
+    public static final RegistryObject<Item> SUNSETTIAS = registerItemWithTab(ModItems.SUNSETTIAS, () -> new Item(basicItem()));
 
 
     // Drinks

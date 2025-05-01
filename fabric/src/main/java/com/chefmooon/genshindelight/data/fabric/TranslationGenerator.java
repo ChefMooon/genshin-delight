@@ -18,6 +18,7 @@ public class TranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add("itemGroup." + MOD_ID, "Genshin Delight");
 
         translationBuilder.add(ModBlocksImpl.BERRY.get(), "Berry");
+        translationBuilder.add(ModItemsImpl.BERRY, "Berry");
         translationBuilder.add(ModBlocksImpl.WILD_BERRY.get(), "Wild Berry");
         translationBuilder.add(ModBlocksImpl.CALLA_LILY.get(), "Calla Lily");
         translationBuilder.add(ModBlocksImpl.MATASUKE.get(), "Matasuke");

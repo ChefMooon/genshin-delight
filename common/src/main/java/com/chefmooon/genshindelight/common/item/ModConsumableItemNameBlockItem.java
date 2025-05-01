@@ -1,4 +1,4 @@
-package com.chefmooon.genshindelight.common.item.fabric;
+package com.chefmooon.genshindelight.common.item;
 
 import com.chefmooon.genshindelight.common.util.TextUtil;
 import net.minecraft.network.chat.Component;
@@ -11,14 +11,15 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class ModConsumableItemNameBlockItemImpl extends ItemNameBlockItem {
+// TODO: review this, I don't think it works the way I thought
+public class ModConsumableItemNameBlockItem extends ItemNameBlockItem {
     private final boolean hasFoodEffectTooltip;
-    public ModConsumableItemNameBlockItemImpl(Block block, Properties properties) {
+    public ModConsumableItemNameBlockItem(Block block, Properties properties) {
         super(block, properties);
         this.hasFoodEffectTooltip = false;
     }
 
-    public ModConsumableItemNameBlockItemImpl(Block block, Properties properties, boolean hasFoodEffectTooltip) {
+    public ModConsumableItemNameBlockItem(Block block, Properties properties, boolean hasFoodEffectTooltip) {
         super(block, properties);
         this.hasFoodEffectTooltip = hasFoodEffectTooltip;
     }

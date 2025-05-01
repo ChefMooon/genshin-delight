@@ -1,7 +1,7 @@
 package com.chefmooon.genshindelight.common.registry.fabric;
 
 import com.chefmooon.genshindelight.common.FoodValues;
-import com.chefmooon.genshindelight.common.item.fabric.ModConsumableItemNameBlockItemImpl;
+import com.chefmooon.genshindelight.common.item.ModConsumableItemNameBlockItem;
 import com.chefmooon.genshindelight.common.registry.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
@@ -18,7 +18,7 @@ public class ModItemsImpl {
 
     // Crop Like Things
     public static final Item BERRY = registerItemWithTab(ModItems.BERRY,
-            new ModConsumableItemNameBlockItemImpl(ModBlocksImpl.BERRY.get(), basicItem()));
+            new ModConsumableItemNameBlockItem(ModBlocksImpl.BERRY.get(), basicItem()));
     public static final Item WILD_BERRY = registerItemWithTab(ModItems.WILD_BERRY, new BlockItem(ModBlocksImpl.WILD_BERRY.get(), basicItem()));
     public static final Item CALLA_LILY = registerItemWithTab(ModItems.CALLA_LILY, new BlockItem(ModBlocksImpl.CALLA_LILY.get(), basicItem()));
     public static final Item MATASUKE = registerItemWithTab(ModItems.MATASUKE, new BlockItem(ModBlocksImpl.MATASUKE.get(), basicItem()));
