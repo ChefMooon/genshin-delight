@@ -10,5 +10,6 @@ public class DataGeneration implements DataGeneratorEntrypoint {
 
         pack.addProvider(TranslationGenerator::new);
         pack.addProvider(ModelGenerator::new);
+        pack.addProvider(LootTableGenerator::new);
     }
 }

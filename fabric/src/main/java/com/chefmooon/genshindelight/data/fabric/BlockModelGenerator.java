@@ -1,5 +1,6 @@
 package com.chefmooon.genshindelight.data.fabric;
 
+import com.chefmooon.genshindelight.common.block.RadishCropBlock;
 import com.chefmooon.genshindelight.common.block.base.BaseBushBlock;
 import com.chefmooon.genshindelight.common.block.base.BaseFeastBlock;
 import com.chefmooon.genshindelight.common.registry.ModBlocks;
@@ -39,6 +40,20 @@ public class BlockModelGenerator {
         ResourceLocation WILD_BERRY = registerCropCross("", ModBlocksImpl.WILD_BERRY.get());
         blockStateModelGenerator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(ModBlocksImpl.WILD_BERRY.get(), WILD_BERRY));
 
+        ResourceLocation RADISH_STAGE_0 = registerCropCross("_stage_0", ModBlocksImpl.RADISH.get());
+        ResourceLocation RADISH_STAGE_1 = registerCropCross("_stage_1", ModBlocksImpl.RADISH.get());
+        ResourceLocation RADISH_STAGE_2 = registerCropCross("_stage_2", ModBlocksImpl.RADISH.get());
+        blockStateModelGenerator.blockStateOutput.accept(MultiVariantGenerator.multiVariant(ModBlocksImpl.RADISH.get())
+                .with(PropertyDispatch.property(RadishCropBlock.AGE)
+                        .select(0, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_0))
+                        .select(1, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_0))
+                        .select(2, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_1))
+                        .select(3, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_1))
+                        .select(4, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_2))
+                        .select(5, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_2))
+                        .select(6, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_2))
+                        .select(7, Variant.variant().with(VariantProperties.MODEL, RADISH_STAGE_2))
+                ));
 
 //       ResourceLocation CALLA_LILY =  registerCropCross("", ModBlocksImpl.CALLA_LILY.get());
 //        blockStateModelGenerator.blockStateOutput.accept(BlockModelGenerators.createSimpleBlock(ModBlocksImpl.CALLA_LILY.get(), CALLA_LILY));

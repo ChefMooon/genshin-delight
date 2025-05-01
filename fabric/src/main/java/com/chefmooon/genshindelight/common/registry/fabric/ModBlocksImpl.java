@@ -1,6 +1,7 @@
 package com.chefmooon.genshindelight.common.registry.fabric;
 
 import com.chefmooon.genshindelight.common.block.MushroomPizzaBlock;
+import com.chefmooon.genshindelight.common.block.RadishCropBlock;
 import com.chefmooon.genshindelight.common.block.StickyHoneyRoastBlock;
 import com.chefmooon.genshindelight.common.block.TeaBreakPancakeBlock;
 import com.chefmooon.genshindelight.common.block.base.BaseBushBlock;
@@ -27,7 +28,7 @@ public class ModBlocksImpl {
     public static final Supplier<Block> MINT = registerBlock(ModBlocks.MINT,
             new Block(BlockBehaviour.Properties.copy(Blocks.DANDELION)));
     public static final Supplier<Block> RADISH = registerBlock(ModBlocks.RADISH,
-            new Block(BlockBehaviour.Properties.copy(Blocks.CARROTS)));
+            new RadishCropBlock(BlockBehaviour.Properties.copy(Blocks.CARROTS)));
     public static final Supplier<Block> SMALL_LAMP_GRASS = registerBlock(ModBlocks.SMALL_LAMP_GRASS,
             new Block(BlockBehaviour.Properties.copy(Blocks.DANDELION).lightLevel((state) -> 8)));
     public static final Supplier<Block> WILD_LAMP_GRASS = registerBlock(ModBlocks.WILD_LAMP_GRASS,
