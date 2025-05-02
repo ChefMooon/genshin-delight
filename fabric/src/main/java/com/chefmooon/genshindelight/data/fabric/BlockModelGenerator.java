@@ -1,6 +1,8 @@
 package com.chefmooon.genshindelight.data.fabric;
 
+import com.chefmooon.genshindelight.common.block.MushroomPizzaBlock;
 import com.chefmooon.genshindelight.common.block.RadishCropBlock;
+import com.chefmooon.genshindelight.common.block.TeaBreakPancakeBlock;
 import com.chefmooon.genshindelight.common.block.base.BaseBushBlock;
 import com.chefmooon.genshindelight.common.block.base.BaseFeastBlock;
 import com.chefmooon.genshindelight.common.registry.ModBlocks;
@@ -25,7 +27,7 @@ public class BlockModelGenerator {
 //        registerBaseFeast(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get());
         blockStateModelGenerator.blockStateOutput.accept(MultiVariantGenerator.multiVariant(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get())
                 .with(BlockModelGenerators.createHorizontalFacingDispatch())
-                .with(PropertyDispatch.property(BaseFeastBlock.SERVINGS)
+                .with(PropertyDispatch.property(MushroomPizzaBlock.SERVINGS)
                         .select(0, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_0")))
                         .select(1, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_1")))
                         .select(2, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_2")))
@@ -35,7 +37,19 @@ public class BlockModelGenerator {
         );
 
 //        registerBaseFeast(ModBlocksImpl.STICKY_HONEY_ROAST.get());
-        registerBaseFeast(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get());
+
+//        registerBaseFeast(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get());
+        blockStateModelGenerator.blockStateOutput.accept(MultiVariantGenerator.multiVariant(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get())
+                .with(BlockModelGenerators.createHorizontalFacingDispatch())
+                .with(PropertyDispatch.property(TeaBreakPancakeBlock.PANCAKE_SERVINGS)
+                        .select(0, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_0")))
+                        .select(1, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_1")))
+                        .select(2, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_2")))
+                        .select(3, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_3")))
+                        .select(4, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_4")))
+                        .select(5, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get()).withSuffix("_servings_5")))
+                )
+        );
 
         ResourceLocation BERRY_BUSH_STAGE_0 = registerCropCross("_stage_0", ModBlocksImpl.BERRY.get());
         ResourceLocation BERRY_BUSH_STAGE_1 = registerCropCross("_stage_1", ModBlocksImpl.BERRY.get());

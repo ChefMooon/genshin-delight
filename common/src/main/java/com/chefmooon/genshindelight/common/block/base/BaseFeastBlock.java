@@ -26,7 +26,15 @@ public class BaseFeastBlock extends Block {
     public BaseFeastBlock(Properties properties, Supplier<Item> servingItem) {
         super(properties);
         this.servingItem = servingItem;
-        this.registerDefaultState(this.getStateDefinition().any().setValue(SERVINGS, MAX_SERVINGS).setValue(FACING, net.minecraft.core.Direction.NORTH));
+        this.registerDefaultState(this.getStateDefinition().any().setValue(getServingsProperty(), getMaxServings()).setValue(FACING, net.minecraft.core.Direction.NORTH));
+    }
+
+    public IntegerProperty getServingsProperty() {
+        return SERVINGS;
+    }
+
+    public int getMaxServings() {
+        return MAX_SERVINGS;
     }
 
     @Override
