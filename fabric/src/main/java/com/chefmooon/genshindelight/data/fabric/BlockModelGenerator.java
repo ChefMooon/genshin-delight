@@ -22,7 +22,18 @@ public class BlockModelGenerator {
     public static void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
         GENERATOR = blockStateModelGenerator;
 
-        registerBaseFeast(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get());
+//        registerBaseFeast(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get());
+        blockStateModelGenerator.blockStateOutput.accept(MultiVariantGenerator.multiVariant(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get())
+                .with(BlockModelGenerators.createHorizontalFacingDispatch())
+                .with(PropertyDispatch.property(BaseFeastBlock.SERVINGS)
+                        .select(0, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_0")))
+                        .select(1, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_1")))
+                        .select(2, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_2")))
+                        .select(3, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_3")))
+                        .select(4, Variant.variant().with(VariantProperties.MODEL, ModelLocationUtils.getModelLocation(ModBlocksImpl.MUSHROOM_PIZZA_BLOCK.get()).withSuffix("_servings_4")))
+                )
+        );
+
 //        registerBaseFeast(ModBlocksImpl.STICKY_HONEY_ROAST.get());
         registerBaseFeast(ModBlocksImpl.TEA_BREAK_PANCAKE_BLOCK.get());
 
@@ -72,6 +83,7 @@ public class BlockModelGenerator {
         GENERATOR.blockStateOutput.accept(MultiVariantGenerator.multiVariant(block)
                 .with(BlockModelGenerators.createHorizontalFacingDispatch())
                 .with(PropertyDispatch.property(BaseFeastBlock.SERVINGS)
+                        .select(0, Variant.variant().with(VariantProperties.MODEL, BLOCK_LOCATION.withSuffix("_4")))
                         .select(1, Variant.variant().with(VariantProperties.MODEL, BLOCK_LOCATION.withSuffix("_4")))
                         .select(2, Variant.variant().with(VariantProperties.MODEL, BLOCK_LOCATION.withSuffix("_4")))
                         .select(3, Variant.variant().with(VariantProperties.MODEL, BLOCK_LOCATION.withSuffix("_4")))

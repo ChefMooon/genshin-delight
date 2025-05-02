@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 
 public class BaseFeastBlock extends Block {
     public static final int MAX_SERVINGS = 4;
-    public static final IntegerProperty SERVINGS = IntegerProperty.create("servings", 1, MAX_SERVINGS);
+    public static final IntegerProperty SERVINGS = IntegerProperty.create("servings", 0, MAX_SERVINGS);
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     protected static final VoxelShape SHAPE = Block.box(1.0d, .0d, 1.0d, 15.d, 10.d, 15.d);
     public Supplier<Item> servingItem;

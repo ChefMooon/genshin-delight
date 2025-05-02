@@ -1,5 +1,9 @@
 {
   "variants": {
+    "facing=east,servings=0": {
+      "model": "genshindelight:block/tea_break_pancake_block_4",
+      "y": 90
+    },
     "facing=east,servings=1": {
       "model": "genshindelight:block/tea_break_pancake_block_4",
       "y": 90
@@ -16,6 +20,9 @@
       "model": "genshindelight:block/tea_break_pancake_block_4",
       "y": 90
     },
+    "facing=north,servings=0": {
+      "model": "genshindelight:block/tea_break_pancake_block_4"
+    },
     "facing=north,servings=1": {
       "model": "genshindelight:block/tea_break_pancake_block_4"
     },
@@ -27,6 +34,10 @@
     },
     "facing=north,servings=4": {
       "model": "genshindelight:block/tea_break_pancake_block_4"
+    },
+    "facing=south,servings=0": {
+      "model": "genshindelight:block/tea_break_pancake_block_4",
+      "y": 180
     },
     "facing=south,servings=1": {
       "model": "genshindelight:block/tea_break_pancake_block_4",
@@ -43,6 +54,10 @@
     "facing=south,servings=4": {
       "model": "genshindelight:block/tea_break_pancake_block_4",
       "y": 180
+    },
+    "facing=west,servings=0": {
+      "model": "genshindelight:block/tea_break_pancake_block_4",
+      "y": 270
     },
     "facing=west,servings=1": {
       "model": "genshindelight:block/tea_break_pancake_block_4",
