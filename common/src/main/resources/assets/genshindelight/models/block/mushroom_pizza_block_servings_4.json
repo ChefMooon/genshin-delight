@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "genshindelight:block/mushroom_pizza_block_servings_4",
+		"1": "genshindelight:block/mushroom_pizza_block",
 		"3": "genshindelight:block/mushroom_pizza_block_leafs",
 		"4": "genshindelight:block/mushroom_pizza_block_leafs_2",
 		"6": "genshindelight:block/mushroom_pizza_block_mushrooms",
-		"8": "genshindelight:block/plateplate",
-		"particle": "genshindelight:block/plateplate"
+		"8": "genshindelight:block/plate_brown",
+		"particle": "genshindelight:block/plate_brown"
 	},
 	"elements": [
 		{

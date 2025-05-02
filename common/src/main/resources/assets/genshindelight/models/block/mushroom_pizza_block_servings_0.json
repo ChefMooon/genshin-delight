@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"8": "genshindelight:block/plateplate",
-		"particle": "genshindelight:block/plateplate"
+		"8": "genshindelight:block/plate_brown",
+		"particle": "genshindelight:block/plate_brown"
 	},
 	"elements": [
 		{
