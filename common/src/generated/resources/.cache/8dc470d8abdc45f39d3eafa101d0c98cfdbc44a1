@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-02T17:59:59.6516163	genshindelight/Model Definitions
+// 1.20.1	2025-05-02T18:20:24.3139654	genshindelight/Model Definitions
 7c686cf6a15745d42a28fbdd2f25ca8272dbd739 assets\genshindelight\models\item\chicken_mushroom_skewer.json
 254b5e331f74ebb074246f926df936dfcb01274c assets\genshindelight\models\item\wolfhook_juice.json
 2a90c3262de8dadfe915c81201fbf0deb5da0dce assets\genshindelight\models\item\moon_pie.json
@@ -11,7 +11,7 @@ c0b10d2dabdef6a5d2610de4d0df3473b55d4cf5 assets\genshindelight\blockstates\mushr
 682ad4b09b2d1567f908555bfe6e03d6f4aaeff7 assets\genshindelight\models\item\flaming_red_bolognese.json
 14ca6ea5443063448139b6804ba4b5579f7930db assets\genshindelight\models\item\cream.json
 4c29ca70866a24a37984c28abdfdf16a3976638f assets\genshindelight\models\item\sweet_madame.json
-8ce9605b13f572099f1a8abf3f5ae3e3a49301c3 assets\genshindelight\models\item\mushroom_pizza_block.json
+a543339f35f62292d8d9f648ed14f5b326774fcd assets\genshindelight\models\item\mushroom_pizza_block.json
 6cb85846111f05313386c19d9f526590e2047c6a assets\genshindelight\models\item\steak.json
 e66ec5cb8e257c082efd801b112b79bb85059c8d assets\genshindelight\models\block\berry_stage_0.json
 5af4e38620dbe198c97face9bbd456113f85532a assets\genshindelight\blockstates\berry.json
@@ -32,7 +32,7 @@ e211fa904a997033d5804ea301df989b51d9b820 assets\genshindelight\models\item\crab.
 8f97d08a2663315fd68e3b7c239936ef24d27377 assets\genshindelight\models\item\radish_veggie_soup.json
 c85fc926d17d1317835d742bfdc1753845365a98 assets\genshindelight\models\block\wild_berry.json
 0a586bc84996a6518f38e875706257c68950d0bb assets\genshindelight\models\item\cream_stew.json
-38f1b2de22e99e42676322194f8bbe8544c8cf58 assets\genshindelight\models\item\tea_break_pancake_block.json
+1960855c7936efb938de81fc627b9d3afbbcecc4 assets\genshindelight\models\item\tea_break_pancake_block.json
 a74d0e331ec991f2485428574092662c8e8f7948 assets\genshindelight\models\item\teyvat_fried_egg.json
 8df4a0563f2dab373871a56838c036801ffd743d assets\genshindelight\models\item\cheese.json
 047889ae5ac3b2eb2caca089bdf33f53129a6bd0 assets\genshindelight\models\item\mushroom_pizza.json
@@ -71,5 +71,6 @@ db32e5c4f98df275e716260282e5dceffdf40b1c assets\genshindelight\models\item\spark
 e16cf9892d592aeb7547272605def55f61d46be8 assets\genshindelight\models\item\small_lamp_grass.json
 b6a8bcd7dbe3abfa26a3a7a227c6413f24607885 assets\genshindelight\models\item\flour.json
 5678446795afd789fe2ecd8349eeeb2b94c6a869 assets\genshindelight\models\item\calla_lily_seafood_soup.json
+498f09d53820073f05af691103a10b366a7ea4ca assets\genshindelight\models\item\sticky_honey_roast_block.json
 f08087df9bdbcc550a482a06a143e3b869d5885a assets\genshindelight\models\block\wild_lamp_grass.json
 fbbe9f2d775ca49efda2290cb513eab8e7973b34 assets\genshindelight\models\item\pile_em_up.json

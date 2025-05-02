@@ -64,11 +64,15 @@ public class ItemModelGenerator {
         generateFlatItem(ModItemsImpl.STEAK);
         generateFlatItem(ModItemsImpl.SUNSHINE_SPRAT);
         generateFlatItem(ModItemsImpl.SWEET_MADAME);
-        generateFlatItem(ModItemsImpl.TEA_BREAK_PANCAKE);
         generateFlatItem(ModItemsImpl.TEYVAT_FRIED_EGG);
 
         generateFlatItem(ModItemsImpl.MUSHROOM_PIZZA);
         generateFlatItem(ModItemsImpl.STICKY_HONEY_ROAST);
+        generateFlatItem(ModItemsImpl.TEA_BREAK_PANCAKE);
+
+        generateFlatItem(ModItemsImpl.MUSHROOM_PIZZA_BLOCK);
+        generateFlatItem(ModItemsImpl.STICKY_HONEY_ROAST_BLOCK);
+        generateFlatItem(ModItemsImpl.TEA_BREAK_PANCAKE_BLOCK);
     }
 
     private static void generateFlatItem(Item item) {

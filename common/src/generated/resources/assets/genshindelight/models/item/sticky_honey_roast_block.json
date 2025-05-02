@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "genshindelight:item/mushroom_pizza_block"
+    "layer0": "genshindelight:item/sticky_honey_roast_block"
   }
 }

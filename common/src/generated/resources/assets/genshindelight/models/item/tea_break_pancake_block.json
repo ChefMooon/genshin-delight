@@ -1,3 +1,6 @@
 {
-  "parent": "genshindelight:block/tea_break_pancake_block"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "genshindelight:item/tea_break_pancake_block"
+  }
 }
