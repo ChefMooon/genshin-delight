@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "genshindelight:block/plate_white",
-		"9": "genshindelight:block/tea_break_pancake_block_leaf",
+		"9": "genshindelight:block/tea_break_pancake_leaf",
 		"particle": "genshindelight:block/plate_white"
 	},
 	"elements": [
@@ -19,8 +19,8 @@
 			}
 		},
 		{
-			"from": [7.5, 1, 7.5],
-			"to": [9.5, 1, 9],
+			"from": [7.5, 1.1, 7.5],
+			"to": [9.5, 1.1, 9],
 			"rotation": {"angle": -45, "axis": "y", "origin": [7.5, -1, 7]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 0], "texture": "#9"},

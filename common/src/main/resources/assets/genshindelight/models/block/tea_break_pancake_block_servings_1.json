@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "genshindelight:block/plate_white",
-		"1": "genshindelight:block/tea_break_pancake_block_5",
+		"1": "genshindelight:block/tea_break_pancake_1",
 		"particle": "genshindelight:block/plate_white"
 	},
 	"elements": [

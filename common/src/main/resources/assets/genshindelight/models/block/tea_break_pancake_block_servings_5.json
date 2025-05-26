@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "genshindelight:block/plate_white",
-		"1": "genshindelight:block/tea_break_pancake_block_1",
-		"8": "genshindelight:block/tea_break_pancake_block_berry",
-		"9": "genshindelight:block/tea_break_pancake_block_leaf",
+		"1": "genshindelight:block/tea_break_pancake_5",
+		"8": "genshindelight:block/tea_break_pancake_berry",
+		"9": "genshindelight:block/tea_break_pancake_leaf",
 		"particle": "genshindelight:block/plate_white"
 	},
 	"elements": [
