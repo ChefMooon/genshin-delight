@@ -44,7 +44,7 @@ public class ItemModelGenerator {
         generateFlatItem(ModItemsImpl.APPLE_ROLY_POLY);
         generateFlatItem(ModItemsImpl.BARBATOS_RATATOUILLE);
         generateFlatItem(ModItemsImpl.CALLA_LILY_SEAFOOD_SOUP);
-        generateFlatItem(ModItemsImpl.CHICKEN_MUSHROOM_SKEWER);
+        GENERATOR.generateFlatItem(ModItemsImpl.CHICKEN_MUSHROOM_SKEWER, ModelTemplates.FLAT_HANDHELD_ITEM);
         generateFlatItem(ModItemsImpl.COLD_CUT_PLATTER);
         generateFlatItem(ModItemsImpl.CRAB_HAM_VEGGIE_BAKE);
         generateFlatItem(ModItemsImpl.CREAM_STEW);
